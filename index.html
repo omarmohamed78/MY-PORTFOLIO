@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Omar Mohamed | Full Stack .NET / Web Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ░░ LOADER ░░ -->
+  <div id="loader">
+    <div class="ld-inner">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="20" stroke="#1e2740" stroke-width="3" />
+        <circle cx="24" cy="24" r="20" stroke="url(#lg)" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="32 94" class="ld-arc" />
+        <defs>
+          <linearGradient id="lg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#818cf8" />
+            <stop offset="1" stop-color="#22d3ee" />
+          </linearGradient>
+        </defs>
+      </svg>
+      <p>Omar Mohamed</p>
+    </div>
+  </div>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <span class="brand-wrap"><span class="b-o">O</span>M</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nm">
+        <span class="tog-icon"><span></span><span></span><span></span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nm">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stats">Stats</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="nav-cta" href="#contact">Hire Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <section id="hero">
+    <div class="hero-mesh"></div>
+    <div class="hero-grad-1"></div>
+    <div class="hero-grad-2"></div>
+
+    <div class="container hero-container">
+      <div class="row align-items-center min-vh-100 py-5">
+
+        <!-- LEFT -->
+        <div class="col-lg-6 hero-left" data-reveal>
+          <div class="hero-status">
+            <span class="hs-dot"></span> Available for work
+          </div>
+
+          <h1 class="hero-title">
+            Hello, I'm<br />
+            <span class="ht-name">Omar<br />Mohamed</span>
+          </h1>
+
+          <div class="hero-role">
+            <span class="hr-bar"></span>
+            <span id="typed"></span><span class="hr-cursor">|</span>
+          </div>
+
+          <p class="hero-bio">
+            Full Stack .NET / Web Developer with a strong Front-End background, crafting fast,
+            responsive, and visually stunning web experiences — from pixel-perfect front-ends to scalable back-ends.
+          </p>
+
+          <div class="hero-btns">
+            <a href="assets/CV/Omar_Mohamed_CV.pdf" class="hb-primary" download>
+              <i class="fa-solid fa-download"></i> Download CV
+            </a>
+            <a href="#contact" class="hb-secondary">
+              <i class="fa-solid fa-arrow-right"></i> Contact Me
+            </a>
+          </div>
+
+          <div class="hero-links">
+            <a href="https://github.com/omarmohamed78" target="_blank" class="hl-item" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/omar-mohamed-011aaa33a" target="_blank" class="hl-item"
+              title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.facebook.com/share/1PQTwTZCP9/" target="_blank" class="hl-item" title="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/3mar_mo7amed10" target="_blank" class="hl-item" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="col-lg-6 d-none d-lg-flex justify-content-center hero-right" data-reveal data-delay="200">
+          <div class="hp-wrap">
+            <div class="hp-ring hp-ring-1"></div>
+            <div class="hp-ring hp-ring-2"></div>
+            <div class="hp-img-frame">
+              <img src="OMAR.jpeg" alt="Omar Mohamed" class="hp-img" />
+            </div>
+            <div class="hp-chip chip-tl">
+              <i class="fa-solid fa-code"></i>
+              <span>Full-Stack Dev</span>
+            </div>
+            <div class="hp-chip chip-br">
+              <i class="fa-solid fa-star"></i>
+              <span>Open to Hire</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <div class="sh-mouse">
+        <div class="sh-dot"></div>
+      </div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section id="about" class="s-pad s-dark">
+    <div class="container">
+      <div class="s-head" data-reveal>
+        <span class="s-eyebrow">Who I am</span>
+        <h2 class="s-title">About <span class="g-text">Me</span></h2>
+      </div>
+
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5" data-reveal data-delay="0">
+          <div class="abt-photo-wrap">
+            <img src="OMAR.jpeg" alt="Omar Mohamed" class="abt-photo" />
+            <div class="abt-deco"></div>
+            <div class="abt-exp-badge">
+              <strong>3+</strong>
+              <span>Years<br />Experience</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7" data-reveal data-delay="150">
+          <h3 class="abt-heading">
+            Building digital products<br />people <span class="g-text">love to use.</span>
+          </h3>
+          <p class="abt-text">
+            I'm <strong>Omar Mohamed</strong>, a Computer and Information student at
+            <strong>Benha University</strong> with a deep passion for building modern web
+            applications. Every project I take on gets full attention — from the first line
+            of code to the final pixel.
+          </p>
+          <p class="abt-text">
+            I completed the <strong>NTI Full Stack PHP Training</strong> and I'm currently
+            training in <strong>Full Stack .NET</strong> through <strong>DEPI</strong>, building
+            hands-on experience across both front-end and back-end development. I also serve as
+            <strong>Vice Head of Front-End at GDGoC Benha University</strong> for the 2026–2027
+            season. I believe great software is where clean code meets beautiful design.
+          </p>
+
+          <div class="abt-grid">
+            <div class="ag-item">
+              <i class="fa-solid fa-user"></i>
+              <div><span>Name</span><strong>Omar Mohamed</strong></div>
+            </div>
+            <div class="ag-item">
+              <i class="fa-solid fa-phone"></i>
+              <div><span>Phone</span><strong><a href="tel:+201208627351">+20 120 862 7351</a></strong></div>
+            </div>
+            <div class="ag-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div><span>Education</span><strong>Benha University — Comp. & Info.</strong></div>
+            </div>
+            <div class="ag-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div><span>Location</span><strong>Shubra El-Kheima, Egypt</strong></div>
+            </div>
+            <div class="ag-item">
+              <i class="fa-solid fa-certificate"></i>
+              <div><span>Training</span><strong>NTI PHP (Done) · DEPI .NET (In Progress)</strong></div>
+            </div>
+            <div class="ag-item">
+              <i class="fa-solid fa-users-gear"></i>
+              <div><span>Leadership</span><strong>GDGoC Benha — Vice_Head of Front-End</strong></div>
+            </div>
+          </div>
+
+          <a href="#contact" class="hb-primary mt-4 d-inline-flex">
+            <i class="fa-solid fa-handshake"></i> Let's Work Together
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SKILLS ░░ -->
+  <section id="skills" class="s-pad">
+    <div class="container">
+      <div class="s-head" data-reveal>
+        <span class="s-eyebrow">My toolkit</span>
+        <h2 class="s-title">My <span class="g-text">Skills</span></h2>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="0">
+          <div class="sk-card">
+            <i class="fa-brands fa-html5" style="color:#e34c26"></i>
+            <h6>HTML5</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="95"></div>
+            </div>
+            <span>95%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="60">
+          <div class="sk-card">
+            <i class="fa-brands fa-css3-alt" style="color:#264de4"></i>
+            <h6>CSS3</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="90"></div>
+            </div>
+            <span>90%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="120">
+          <div class="sk-card">
+            <i class="fa-brands fa-js" style="color:#f7df1e"></i>
+            <h6>JavaScript</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="80"></div>
+            </div>
+            <span>80%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="180">
+          <div class="sk-card">
+            <i class="fa-brands fa-bootstrap" style="color:#7952b3"></i>
+            <h6>Bootstrap</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="92"></div>
+            </div>
+            <span>92%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="240">
+          <div class="sk-card">
+            <i class="fa-brands fa-php" style="color:#8993be"></i>
+            <h6>PHP</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="72"></div>
+            </div>
+            <span>72%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="300">
+          <div class="sk-card">
+            <i class="fa-solid fa-database" style="color:#00758f"></i>
+            <h6>MySQL</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="70"></div>
+            </div>
+            <span>70%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="360">
+          <div class="sk-card">
+            <i class="fa-brands fa-git-alt" style="color:#f05032"></i>
+            <h6>Git & GitHub</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="85"></div>
+            </div>
+            <span>85%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="420">
+          <div class="sk-card">
+            <i class="fa-solid fa-hashtag" style="color:#9b4f96"></i>
+            <h6>C#</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="65"></div>
+            </div>
+            <span>65%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="480">
+          <div class="sk-card">
+            <i class="fa-solid fa-server" style="color:#512bd4"></i>
+            <h6>.NET / ASP.NET Core</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="60"></div>
+            </div>
+            <span>60%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="660">
+          <div class="sk-card">
+            <i class="fa-solid fa-database" style="color:#a51e37"></i>
+            <h6>SQL Server</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="62"></div>
+            </div>
+            <span>62%</span>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3" data-reveal data-delay="720">
+          <div class="sk-card">
+            <i class="fa-solid fa-cubes" style="color:#f97316"></i>
+            <h6>OOP</h6>
+            <div class="sk-track">
+              <div class="sk-prog" data-w="75"></div>
+            </div>
+            <span>75%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SERVICES ░░ -->
+  <section id="services" class="s-pad s-dark">
+    <div class="container">
+      <div class="s-head" data-reveal>
+        <span class="s-eyebrow">What I offer</span>
+        <h2 class="s-title">My <span class="g-text">Services</span></h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3" data-reveal data-delay="0">
+          <div class="sv-card">
+            <div class="sv-no">01</div>
+            <div class="sv-ico"><i class="fa-solid fa-code"></i></div>
+            <h4>Front-End Development</h4>
+            <p>Fast, accessible and beautiful interfaces built with modern HTML, CSS & JavaScript.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3" data-reveal data-delay="80">
+          <div class="sv-card">
+            <div class="sv-no">02</div>
+            <div class="sv-ico"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <h4>Responsive Design</h4>
+            <p>Flawless experiences across every screen — from small phones to wide monitors.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3" data-reveal data-delay="160">
+          <div class="sv-card">
+            <div class="sv-no">03</div>
+            <div class="sv-ico"><i class="fa-solid fa-rocket"></i></div>
+            <h4>Landing Pages</h4>
+            <p>High-converting pages designed to captivate visitors and drive real business results.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3" data-reveal data-delay="240">
+          <div class="sv-card">
+            <div class="sv-no">04</div>
+            <div class="sv-ico"><i class="fa-solid fa-pen-ruler"></i></div>
+            <h4>UI Design</h4>
+            <p>Beautiful, usable interfaces focused on aesthetics, brand identity and user experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PROJECTS ░░ -->
+  <section id="projects" class="s-pad">
+    <div class="container">
+      <div class="s-head" data-reveal>
+        <span class="s-eyebrow">My work</span>
+        <h2 class="s-title">Featured <span class="g-text">Projects</span></h2>
+      </div>
+      <div class="row g-4">
+
+        <!-- ── PROJECT 1: Food Lover ── -->
+        <div class="col-md-6 col-lg-4" data-reveal data-delay="0">
+          <div class="pj-card">
+            <div class="pj-thumb pj-live" style="--pc:#f97316" data-url="https://food-lover-ten.vercel.app/">
+              <div class="pj-preview-wrap">
+                <iframe src="https://food-lover-ten.vercel.app/" class="pj-iframe" loading="lazy"
+                  title="Food Lover Preview" scrolling="no" tabindex="-1"></iframe>
+                <div class="pj-iframe-block"></div>
+              </div>
+              <div class="pj-ov">
+                <a href="https://food-lover-ten.vercel.app/" target="_blank" class="pj-btn-pri"><i
+                    class="fa-solid fa-eye"></i> Live Demo</a>
+                <a href="https://github.com/omarmohamed78" target="_blank" class="pj-btn-sec"><i
+                    class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+            <div class="pj-body">
+              <div class="pj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <h5>Food Lover</h5>
+              <p>A modern food website with a beautiful UI, animated sections, and an appetizing menu layout — deployed
+                live on Vercel.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── PROJECT 2: Coffee Shop ── -->
+        <div class="col-md-6 col-lg-4" data-reveal data-delay="100">
+          <div class="pj-card">
+            <div class="pj-thumb pj-live" style="--pc:#92400e" data-url="https://omarmohamed78.github.io/coffee/">
+              <div class="pj-preview-wrap">
+                <iframe src="https://omarmohamed78.github.io/coffee/" class="pj-iframe" loading="lazy"
+                  title="Coffee Preview" scrolling="no" tabindex="-1"></iframe>
+                <div class="pj-iframe-block"></div>
+              </div>
+              <div class="pj-ov">
+                <a href="https://omarmohamed78.github.io/coffee/" target="_blank" class="pj-btn-pri"><i
+                    class="fa-solid fa-eye"></i> Live Demo</a>
+                <a href="https://github.com/omarmohamed78/coffee" target="_blank" class="pj-btn-sec"><i
+                    class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+            <div class="pj-body">
+              <div class="pj-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+              <h5>Coffee Shop</h5>
+              <p>A stylish coffee shop landing page with a warm aesthetic, product showcase, and fully responsive
+                layout.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── PROJECT 3: Food Website ── -->
+        <div class="col-md-6 col-lg-4" data-reveal data-delay="200">
+          <div class="pj-card">
+            <div class="pj-thumb pj-live" style="--pc:#16a34a" data-url="https://omarmohamed78.github.io/Food-Website/">
+              <div class="pj-preview-wrap">
+                <iframe src="https://omarmohamed78.github.io/Food-Website/" class="pj-iframe" loading="lazy"
+                  title="Food Website Preview" scrolling="no" tabindex="-1"></iframe>
+                <div class="pj-iframe-block"></div>
+              </div>
+              <div class="pj-ov">
+                <a href="https://omarmohamed78.github.io/Food-Website/" target="_blank" class="pj-btn-pri"><i
+                    class="fa-solid fa-eye"></i> Live Demo</a>
+                <a href="https://github.com/omarmohamed78/Food-Website" target="_blank" class="pj-btn-sec"><i
+                    class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+            <div class="pj-body">
+              <div class="pj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <h5>Food Website</h5>
+              <p>A rich food ordering website with elegant design, menu sections, and smooth scroll animations
+                throughout.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ STATS ░░ -->
+  <section id="stats" class="s-stats">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-lg-3" data-reveal data-delay="0">
+          <div class="st-box">
+            <i class="fa-solid fa-diagram-project"></i>
+            <div class="st-val"><span class="st-num" data-target="30">0</span><span>+</span></div>
+            <p>Projects Done</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-reveal data-delay="100">
+          <div class="st-box">
+            <i class="fa-solid fa-face-smile"></i>
+            <div class="st-val"><span class="st-num" data-target="20">0</span><span>+</span></div>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-reveal data-delay="200">
+          <div class="st-box">
+            <i class="fa-solid fa-calendar-check"></i>
+            <div class="st-val"><span class="st-num" data-target="3">0</span><span>+</span></div>
+            <p>Years Experience</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-reveal data-delay="300">
+          <div class="st-box">
+            <i class="fa-brands fa-github"></i>
+            <div class="st-val"><span class="st-num" data-target="50">0</span><span>+</span></div>
+            <p>GitHub Repos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section id="contact" class="s-pad s-dark">
+    <div class="container">
+      <div class="s-head" data-reveal>
+        <span class="s-eyebrow">Get in touch</span>
+        <h2 class="s-title">Contact <span class="g-text">Me</span></h2>
+      </div>
+      <div class="row g-5">
+
+        <!-- Info -->
+        <div class="col-lg-5" data-reveal data-delay="0">
+          <div class="ct-panel">
+            <h3 class="ct-heading">Let's build something<br /><span class="g-text">amazing together.</span></h3>
+            <p class="ct-sub">Have a project or idea? I'm always happy to connect and talk about it.</p>
+
+            <div class="ct-list">
+              <a href="tel:+201208627351" class="ct-item">
+                <div class="ct-ico"><i class="fa-solid fa-phone"></i></div>
+                <div><strong>Phone</strong><span>+20 120 862 7351</span></div>
+              </a>
+              <a href="mailto:omar@example.com" class="ct-item">
+                <div class="ct-ico"><i class="fa-solid fa-envelope"></i></div>
+                <div><strong>Email</strong><span>omaromara1102006@gmail.com</span></div>
+              </a>
+              <div class="ct-item">
+                <div class="ct-ico"><i class="fa-solid fa-location-dot"></i></div>
+                <div><strong>Location</strong><span>Shubra El-Kheima, Qalyubiyya, Egypt</span></div>
+              </div>
+            </div>
+
+            <!-- MAP -->
+            <div class="map-frame">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55229.8!2d31.2432!3d30.1271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f7d4ef5c2f1%3A0x5c4da7e2af5e3d62!2sShubra%20El-Kheima%2C%20Qalyubiyya!5e0!3m2!1sen!2seg!4v1"
+                width="100%" height="190" style="border:0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Omar Location">
+              </iframe>
+            </div>
+
+            <div class="ct-socials">
+              <a href="https://github.com/omarmohamed78" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/omar-mohamed-011aaa33a" target="_blank"><i
+                  class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.facebook.com/share/1PQTwTZCP9/" target="_blank"><i
+                  class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/3mar_mo7amed10" target="_blank"><i
+                  class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="col-lg-7" data-reveal data-delay="150">
+          <div class="ct-form">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="cf-group">
+                  <input type="text" id="fn" placeholder=" " />
+                  <label>Your Name</label>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="cf-group">
+                  <input type="email" id="fe" placeholder=" " />
+                  <label>Your Email</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="cf-group">
+                  <input type="text" id="fs" placeholder=" " />
+                  <label>Subject</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="cf-group">
+                  <textarea id="fm" rows="5" placeholder=" "></textarea>
+                  <label>Message</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="hb-primary w-100 justify-content-center" onclick="send()">
+                  <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+                <div id="fmsg" class="fmsg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="ft-row">
+        <a class="ft-logo" href="#hero"><span class="b-o">O</span>M<span class="ft-dot">.</span></a>
+        <p>&copy; <span id="yr"></span> Omar Mohamed &mdash; Made with <i class="fa-solid fa-heart"
+            style="color:#f472b6"></i> in Egypt</p>
+        <a href="#hero" class="ft-up"><i class="fa-solid fa-chevron-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
